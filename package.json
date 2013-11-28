@@ -1,6 +1,6 @@
 {
     "name": "grunt-script-link-tags",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Automatically generate include tags for javascript and css",
     "main": "index.js",
     "scripts": {

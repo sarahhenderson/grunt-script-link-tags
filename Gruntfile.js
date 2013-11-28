@@ -15,11 +15,14 @@ module.exports = function(grunt) {
             },
             test: {
                 options: {
-                    openTag: '<!-- start template tags -->',
-                    closeTag: '<!-- end template tags -->'
+                    scriptTemplate: '<script type="text/javascript" src="{{ path }}"></script>',
+                    linkTemplate: '<link rel="stylesheet" href="{{path}}"/>',
+                    openTag: '<!-- start auto template tags -->',
+                    closeTag: '<!-- end auto template tags -->'
                 },
                 src: [
-                    'tests/**/*.js'
+                    'tests/**/*.js',
+                    'tests/**/*.css'
                 ],
                 dest: 'tests/index.html'
             }
