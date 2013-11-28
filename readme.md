@@ -1,5 +1,3 @@
-grunt-script-link-tags
-tags
 # grunt-script-link-tags
 
 > Auto-generate \<script> and \<link> tags for your HTML files.
