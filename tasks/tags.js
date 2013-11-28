@@ -12,14 +12,21 @@ module.exports = function (grunt) {
     // used to get line ending for users operating system
     var os = require('os');
 
+    /**
+     * process a script or link template
+     */
+    function processTemplate (template, data) {
+        return grunt.template.process(template, {data: data});
+    }
+
     //
     // main grunt task for tags
     //
     grunt.registerMultiTask('tags', 'Dynamically add script and link tags to html file', function () {
         var that = this;
         var options = that.options();
-        var scriptTemplate = options.scriptTemplate || '<script src="PATH"></script>';
-        var linkTemplate = options.linkTemplate || '<link href="PATH"/>';
+        var scriptTemplate = options.scriptTemplate || '<script src="<%= path %>"></script>';
+        var linkTemplate = options.linkTemplate || '<link href="<%= path %>"/>';
 
         function modifyFile(destFile, srcFiles) {
 
@@ -38,9 +45,9 @@ module.exports = function (grunt) {
                 var relativePath = path.relative(base, file);
 
                 if (path.extname(relativePath) === '.js') {
-                    textToAdd += scriptTemplate.replace('PATH', relativePath) + os.EOL;
+                    textToAdd += processTemplate(scriptTemplate, {path: relativePath}) + os.EOL;
                 } else if (path.extname(relativePath) === '.css') {
-                    textToAdd += linkTemplate.replace('PATH', relativePath) + os.EOL;
+                    textToAdd += processTemplate(linkTemplate, {path: relativePath}) + os.EOL;
                 }
             });
 

@@ -1,6 +1,6 @@
 {
   "name": "grunt-script-link-tags",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatically generate include tags for javascript and css",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/andrewjmead/grunt-script-link-tags/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
   }
 }
