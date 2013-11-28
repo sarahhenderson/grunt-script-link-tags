@@ -1,28 +1,29 @@
 {
-  "name": "grunt-script-link-tags",
-  "version": "0.0.2",
-  "description": "Automatically generate include tags for javascript and css",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/andrewjmead/grunt-script-link-tags.git"
-  },
-  "keywords": [
-    "grunt",
-    "script",
-    "tags",
-    "link",
-    "tags"
-  ],
-  "author": "Andrew Mead",
-  "license": "BSD",
-  "bugs": {
-    "url": "https://github.com/andrewjmead/grunt-script-link-tags/issues"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.2"
-  }
+    "name": "grunt-script-link-tags",
+    "version": "0.0.3",
+    "description": "Automatically generate include tags for javascript and css",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/andrewjmead/grunt-script-link-tags.git"
+    },
+    "keywords": [
+        "grunt",
+        "script",
+        "tags",
+        "link",
+        "tags",
+        "gruntplugin"
+    ],
+    "author": "Andrew Mead",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/andrewjmead/grunt-script-link-tags/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2"
+    }
 }
