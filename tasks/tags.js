@@ -1,6 +1,6 @@
 'use strict';
 
-moduel.exports = function () {
+module.exports = function (grunt) {
     // format for all support file inputs
     // that.files is an array of destination files to run task for
         // file.dest  - file to add tags to
