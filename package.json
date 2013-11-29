@@ -1,7 +1,7 @@
 {
     "name": "grunt-script-link-tags",
     "version": "0.0.5",
-    "description": "Automatically generate include tags for javascript and css",
+    "description": "Automatically generate script tags and link tags for your HTML",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,8 @@
         "tags",
         "link",
         "tags",
+        "html",
+        "generate",
         "gruntplugin"
     ],
     "author": "Andrew Mead",

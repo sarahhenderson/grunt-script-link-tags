@@ -1,6 +1,6 @@
 # grunt-script-link-tags
 
-> Auto-generate \<script> and \<link> tags for your HTML files.
+> Auto-generate `<script>` and `<link>` tags for your HTML files.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
