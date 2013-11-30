@@ -129,6 +129,11 @@ You can override all default options. In the following multi-task, we have two t
 		}
 	});
 
+## Run Tests
+
+    > npm install
+    > npm test
+
 ## Contributing
 In lieu of a formal 	, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
