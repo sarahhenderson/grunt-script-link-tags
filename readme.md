@@ -116,7 +116,7 @@ You can override all default options. In the following multi-task, we have two t
 		            closeTag: '<!-- end css template tags -->'
 		        },
 		        src: [
-		            'site/css/**/*.js'
+		            'site/css/**/*.css'
 		        ],
 		        dest: 'site/index.html'
 		    }
