@@ -2,6 +2,12 @@
 
 > Auto-generate `<script>` and `<link>` tags for your HTML files.
 
+## Community
+
+If you have any problems setting up or using `grunt-script-link-tags`, open an issue. I would be happy to help.
+
+**This is an active repository** that takes user suggestions, feeback and pull requests seriously. Happy grunting!
+
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
 
