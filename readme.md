@@ -1,4 +1,4 @@
-# grunt-script-link-tags
+# grunt-script-link-tags [![Build Status](https://travis-ci.org/andrewjmead/grunt-script-link-tags.png)](https://travis-ci.org/gruntjs/grunt-contrib-clean)
 
 > Auto-generate `<script>` and `<link>` tags for your HTML files.
 
