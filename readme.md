@@ -137,11 +137,10 @@ You can override all default options. In the following multi-task, we have two t
 ## Contributing
 In lieu of a formal 	, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-## Author
-
-Andrew Mead
-
-https://www.github.com/andrewjmead
-
 ## Release History
-_(Nothing yet)_
+
+ * 2013-30-11   v1.0.0   First version!
+
+---
+
+Task submitted by [Andrew Mead](http://www.andrewjmead.com)
