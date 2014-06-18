@@ -52,7 +52,7 @@ module.exports = function (grunt) {
 
         srcFiles.forEach(function (srcFile) {
             // calculate the src files path relative to destination path
-            var relativePath = path.relative(filePath, srcFile);
+            var relativePath = path.relative(filePath, srcFile).replace(/\\/g,'/');
             tagsText += that.generateTag(relativePath);
         });
 
